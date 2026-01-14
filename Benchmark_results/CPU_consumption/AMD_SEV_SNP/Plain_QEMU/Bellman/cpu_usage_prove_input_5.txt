@@ -1,0 +1,1273 @@
+processtop - 13:45:46 up 23:04,  2 users,  load average: 22.61, 20.31, 18.87
+Tasks: 386 total,   2 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  2.6 sy,  0.0 ni, 95.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 121070.3 free,   1915.2 used,   3922.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123805.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978499 root      20   0  587392 276844 232936 S 100.0   0.2   0:00.12 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha_circ --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=cdbdfe895396f94b -C extra-filename=-e6539fd0183bf687 --out-dir /root/sha_circ/target/release/dep+
+1978497 root      20   0  593536 279116 234740 S  90.9   0.2   0:00.11 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha256_bench --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --cfg test --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=73e8dbf0d351358a -C extra-filename=-12288d2dd53f1023 --out-dir /root/sha_circ/target/release/deps +
+1978487 root      20   0   12344   5548   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:46 up 23:04,  2 users,  load average: 22.61, 20.31, 18.87
+Tasks: 387 total,   1 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.5 us,  1.2 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120952.4 free,   2033.4 used,   3922.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123687.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978497 root      20   0  678096 355032 258648 S 154.5   0.3   0:00.39 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha256_bench --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --cfg test --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=73e8dbf0d351358a -C extra-filename=-12288d2dd53f1023 --out-dir /root/sha_circ/target/release/deps +
+1978499 root      20   0  671952 351052 256604 S 136.4   0.3   0:00.38 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha_circ --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=cdbdfe895396f94b -C extra-filename=-e6539fd0183bf687 --out-dir /root/sha_circ/target/release/dep+
+1978094 root      20   0   13028   9396   3720 S   9.1   0.0   0:00.03 -bash
+1978543 root      20   0   12344   5552   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+---------------------------------
+processtop - 13:45:46 up 23:04,  2 users,  load average: 22.61, 20.31, 18.87
+Tasks: 387 total,   1 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.0 us,  3.1 sy,  0.0 ni, 45.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120834.8 free,   2150.9 used,   3922.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123570.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978499 root      20   0  628876 272932 121188 S  1236   0.2   0:02.72 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha_circ --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=cdbdfe895396f94b -C extra-filename=-e6539fd0183bf687 --out-dir /root/sha_circ/target/release/dep+
+1978497 root      20   0  632460 273852 120972 S  1227   0.2   0:02.74 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha256_bench --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --cfg test --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=73e8dbf0d351358a -C extra-filename=-12288d2dd53f1023 --out-dir /root/sha_circ/target/release/deps +
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:46 up 23:04,  2 users,  load average: 22.61, 20.31, 18.87
+Tasks: 385 total,   4 running, 381 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.9 us,  0.9 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120768.4 free,   2217.1 used,   3923.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123503.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978497 root      20   0  683752 347748 121228 S  1582   0.3   0:05.05 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha256_bench --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --cfg test --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=73e8dbf0d351358a -C extra-filename=-12288d2dd53f1023 --out-dir /root/sha_circ/target/release/deps +
+1978499 root      20   0  687336 347716 121444 S  1518   0.3   0:04.98 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha_circ --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=cdbdfe895396f94b -C extra-filename=-e6539fd0183bf687 --out-dir /root/sha_circ/target/release/dep+
+1978607 root      20   0   12344   5540   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:47 up 23:04,  2 users,  load average: 22.61, 20.31, 18.87
+Tasks: 389 total,   1 running, 388 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.5 us,  0.9 sy,  0.0 ni,  8.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120702.4 free,   2282.7 used,   3923.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123438.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978499 root      20   0  713792 250908 122980 S 800.0   0.2   0:07.95 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha_circ --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=cdbdfe895396f94b -C extra-filename=-e6539fd0183bf687 --out-dir /root/sha_circ/target/release/dep+
+1978497 root      20   0  713792 251300 122764 S 772.7   0.2   0:07.96 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name sha256_bench --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --cfg test --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=73e8dbf0d351358a -C extra-filename=-12288d2dd53f1023 --out-dir /root/sha_circ/target/release/deps +
+1978651 root      20   0   12344   5556   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:47 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.2 us,  4.9 sy,  0.0 ni, 89.0 id,  0.0 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem : 125720.8 total, 120803.3 free,   2179.9 used,   3925.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123540.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0   30024  22000   4364 R  18.2   0.0   0:00.02 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978445 root      20   0  327436  46020  22404 S   9.1   0.0   0:00.11 /root/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo bench --verbose
+1978467 root      20   0    7748   3456   3176 S   9.1   0.0   0:00.01 /bin/bash ./memory_top_script.sh
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:47 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 61.2 us,  1.0 sy,  0.0 ni, 37.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120802.2 free,   2182.4 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123538.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2198860  36940   4364 S  2083   0.0   0:04.81 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978722 root      20   0   12344   5532   3352 R   8.3   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:47 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 65.5 us,  0.5 sy,  0.0 ni, 34.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120806.6 free,   2177.9 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123542.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2211732  63360   4364 S  2831   0.0   0:10.76 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978766 root      20   0   12344   5544   3368 R   7.7   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:48 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99.5 us,  0.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120806.6 free,   2177.9 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123542.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2211732  63360   4364 S  1100   0.0   0:16.28 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978779 root      20   0   12344   5528   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:48 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.6 us,  1.8 sy,  0.0 ni, 62.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120803.7 free,   2180.8 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123540.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  67572   4632 S  1864   0.1   0:19.65 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978794 root      20   0   12344   5524   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:48 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   3 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.0 us,  0.9 sy,  0.0 ni, 43.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120808.8 free,   2175.7 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123545.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  69744   4632 R  1745   0.1   0:23.88 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978808 root      20   0   12344   5544   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:48 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.8 us,  1.4 sy,  0.0 ni, 39.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120822.0 free,   2162.4 used,   3923.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123558.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  71632   4632 S  1891   0.1   0:28.09 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:48 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 57.4 us,  2.9 sy,  0.0 ni, 39.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120822.8 free,   2161.7 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123559.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  73156   4632 S  1891   0.1   0:32.32 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:49 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 50.9 us,  0.6 sy,  0.0 ni, 48.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120822.9 free,   2161.6 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123559.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  81816   4632 S  1773   0.1   0:36.49 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978851 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:49 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.6 us,  2.6 sy,  0.0 ni, 38.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120826.7 free,   2157.7 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123563.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  83048   4632 R  1727   0.1   0:40.76 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978863 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:49 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 60.3 us,  1.7 sy,  0.0 ni, 38.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120842.1 free,   2142.4 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123578.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  83368   4632 S  1973   0.1   0:45.07 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978876 root      20   0   12344   5540   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:49 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 67.3 us,  1.6 sy,  0.0 ni, 31.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120848.4 free,   2136.0 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123584.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  90208   4632 S  1858   0.1   0:49.68 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978467 root      20   0    7748   3456   3176 S   8.3   0.0   0:00.02 /bin/bash ./memory_top_script.sh
+1978891 root      20   0   12344   5544   3368 R   8.3   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:50 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.8 us,  1.2 sy,  0.0 ni, 45.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120850.4 free,   2134.1 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123586.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  90220   4632 S  1855   0.1   0:53.85 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978903 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:50 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.6 us,  1.4 sy,  0.0 ni, 42.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120857.8 free,   2126.6 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123594.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  90228   4632 S  2040   0.1   0:57.79 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:50 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.7 us,  2.3 sy,  0.0 ni, 38.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120870.5 free,   2113.9 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123606.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  90832   4632 S  1809   0.1   1:01.94 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978931 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:50 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.8 us,  1.5 sy,  0.0 ni, 41.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120882.6 free,   2101.8 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123619.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  93068   4632 S  1882   0.1   1:06.10 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978943 root      20   0   12344   5528   3348 R  18.2   0.0   0:00.02 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:51 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 57.7 us,  0.8 sy,  0.0 ni, 41.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120882.4 free,   2102.0 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123618.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112  97980   4632 S  1800   0.1   1:10.39 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978956 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:51 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 50.1 us,  2.0 sy,  0.0 ni, 47.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120881.0 free,   2103.3 used,   3924.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123617.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 105716   4632 S  1727   0.1   1:14.36 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978971 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:51 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.8 us,  0.9 sy,  0.0 ni, 45.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120886.2 free,   2098.2 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123622.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 105780   4696 S  1782   0.1   1:18.35 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:51 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.2 us,  1.8 sy,  0.0 ni, 45.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120901.6 free,   2082.7 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123638.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 105784   4696 S  1936   0.1   1:22.48 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978998 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:51 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 54.6 us,  1.4 sy,  0.0 ni, 43.4 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem : 125720.8 total, 120902.8 free,   2081.5 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123639.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 105792   4696 R  1709   0.1   1:26.41 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1978444 root      20   0    7748   3500   3224 S   9.1   0.0   0:00.01 /bin/bash ./top_script.sh
+1979011 root      20   0   12344   5544   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:52 up 23:04,  2 users,  load average: 21.12, 20.04, 18.79
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.5 us,  1.8 sy,  0.0 ni, 41.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120902.3 free,   2082.0 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123638.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 105800   4696 S  1845   0.1   1:30.65 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979026 root      20   0   12344   5528   3352 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:52 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 65.1 us,  1.7 sy,  0.0 ni, 33.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120907.4 free,   2076.9 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123643.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 112656   4696 S  2000   0.1   1:35.40 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979038 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:52 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   3 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.9 us,  1.8 sy,  0.0 ni, 44.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120922.4 free,   2062.0 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123658.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 112984   4696 R  1773   0.1   1:39.59 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979051 root      20   0   12344   5520   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:52 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 386 total,   2 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.7 us,  1.4 sy,  0.0 ni, 38.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120928.9 free,   2055.4 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123665.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 112988   4696 S  1973   0.1   1:43.99 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979066 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:53 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.3 us,  1.9 sy,  0.0 ni, 39.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120931.7 free,   2052.6 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123668.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 113000   4696 S  1973   0.1   1:48.65 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979078 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979081 root      20   0   12344   5484   3336 S   9.1   0.0   0:00.01 top -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:53 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   3 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 55.9 us,  1.1 sy,  0.0 ni, 42.7 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem : 125720.8 total, 120935.0 free,   2049.3 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123671.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 113008   4696 R  1718   0.1   1:52.65 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979091 root      20   0   12344   5528   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:53 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.3 us,  2.1 sy,  0.0 ni, 38.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120941.5 free,   2042.8 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123678.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 113596   4696 S  2009   0.1   1:57.09 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979106 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:53 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 64.8 us,  1.2 sy,  0.0 ni, 34.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120940.9 free,   2043.4 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123677.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 127848   4696 S  1764   0.1   2:01.52 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979121 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:53 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   3 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.3 us,  0.9 sy,  0.0 ni, 39.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120940.6 free,   2043.7 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123677.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 134988   4696 R  1700   0.1   2:05.74 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979133 root      20   0   12344   5528   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:54 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.3 us,  2.9 sy,  0.0 ni, 40.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120932.0 free,   2052.3 used,   3924.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123668.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 141528   4696 S  1955   0.1   2:10.05 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979146 root      20   0   12344   5536   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:54 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 386 total,   2 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 65.1 us,  0.9 sy,  0.0 ni, 34.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120933.8 free,   2050.5 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123670.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148068   4696 S  2150   0.1   2:14.59 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:54 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 61.0 us,  0.9 sy,  0.0 ni, 37.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem : 125720.8 total, 120937.1 free,   2047.2 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123673.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148072   4696 S  1664   0.1   2:18.79 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979173 root      20   0   12344   5524   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:54 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   3 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.0 us,  2.8 sy,  0.0 ni, 44.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120941.0 free,   2043.2 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123677.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148084   4696 R  1855   0.1   2:22.79 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979186 root      20   0   12344   5536   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:55 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 386 total,   3 running, 383 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.4 us,  2.4 sy,  0.0 ni, 39.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120940.5 free,   2043.7 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123677.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148704   4696 S  2082   0.1   2:27.40 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979206 root      20   0   12344   5508   3360 R   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:55 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.2 us,  2.4 sy,  0.0 ni, 39.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem : 125720.8 total, 120938.4 free,   2045.8 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123675.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148704   4696 S  1808   0.1   2:31.85 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979213 root      20   0   12344   5544   3368 R   8.3   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979221 root      20   0   12344   5512   3364 S   8.3   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:55 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.8 us,  2.3 sy,  0.0 ni, 44.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120942.7 free,   2041.5 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123679.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148712   4696 S  1718   0.1   2:35.73 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979226 root      20   0   12344   5532   3356 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:55 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.0 us,  2.9 sy,  0.0 ni, 44.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120944.0 free,   2040.2 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123680.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148720   4696 S  1909   0.1   2:39.88 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979241 root      20   0   12344   5524   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:56 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 48.9 us,  2.5 sy,  0.0 ni, 48.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120945.7 free,   2038.5 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123682.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 148732   4696 S  2310   0.1   2:44.27 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979253 root      20   0   12344   5528   3352 R  10.0   0.0   0:00.02 processtop -o %CPU -b -w 512 -n 1
+1979256 root      20   0   12344   5496   3348 S  10.0   0.0   0:00.01 top -b -w 512 -n 1
+1979261 root      20   0   12344   5496   3348 S  10.0   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+---------------------------------
+processtop - 13:45:56 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.1 us,  2.2 sy,  0.0 ni, 39.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120945.7 free,   2038.5 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123682.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155268   4696 S  1518   0.1   2:48.26 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1599432 root      20   0       0      0      0 I   9.1   0.0   0:00.93 [kworker/u1022:2-events_power_efficient]
+1979266 root      20   0   12344   5540   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:56 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 53.3 us,  2.4 sy,  0.0 ni, 44.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120945.5 free,   2038.7 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123682.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155272   4696 S  1764   0.1   2:52.46 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979281 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:56 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 55.7 us,  2.3 sy,  0.0 ni, 41.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem : 125720.8 total, 120950.2 free,   2034.0 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123686.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155280   4696 S  1890   0.1   2:56.55 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979301 root      20   0   12344   5520   3368 S  10.0   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:56 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 55.2 us,  0.8 sy,  0.0 ni, 43.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120949.8 free,   2034.4 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123686.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155280   4696 S  1927   0.1   3:00.59 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:45:57 up 23:04,  2 users,  load average: 21.59, 20.15, 18.84
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.8 us,  2.5 sy,  0.0 ni, 40.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120948.5 free,   2035.7 used,   3924.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123685.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155280   4696 S  1855   0.1   3:04.68 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979328 root      20   0   12344   5516   3368 S   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:57 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 60.2 us,  0.5 sy,  0.0 ni, 39.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120952.0 free,   2032.2 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123688.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155288   4696 S  1936   0.1   3:09.21 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979336 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------
+processtop - 13:45:57 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.4 us,  0.9 sy,  0.0 ni, 39.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120960.5 free,   2023.6 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123697.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155288   4696 S  1791   0.1   3:13.51 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979348 root      20   0   12344   5544   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979356 root      20   0   12344   5504   3352 S   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:57 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 60.9 us,  4.6 sy,  0.0 ni, 34.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120961.6 free,   2022.5 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123698.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155288   4696 S  2045   0.1   3:18.14 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979361 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979368 root      20   0   12344   5520   3368 S   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:58 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.6 us,  1.0 sy,  0.0 ni, 39.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120961.8 free,   2022.3 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123698.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155288   4696 S  1800   0.1   3:22.64 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979376 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:58 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 51.3 us,  2.3 sy,  0.0 ni, 46.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120961.4 free,   2022.8 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123698.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155584   4696 S  1764   0.1   3:26.57 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979388 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:58 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.7 us,  1.7 sy,  0.0 ni, 38.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120963.2 free,   2020.9 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123699.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155584   4696 S  1900   0.1   3:30.82 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979401 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:58 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   2 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 62.3 us,  1.9 sy,  0.0 ni, 35.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120968.8 free,   2015.3 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123705.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155588   4696 S  1808   0.1   3:35.41 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979416 root      20   0   12344   5536   3360 R   8.3   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:58 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 56.8 us,  1.2 sy,  0.0 ni, 42.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120968.9 free,   2015.2 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123705.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155588   4696 S  1764   0.1   3:39.70 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979431 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979436 root      20   0   12344   5516   3368 S   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:45:59 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.2 us,  2.4 sy,  0.0 ni, 38.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120968.0 free,   2016.1 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123704.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155588   4696 S  1855   0.1   3:43.98 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979443 root      20   0   12344   5544   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:59 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 61.4 us,  0.9 sy,  0.0 ni, 37.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120968.2 free,   2015.9 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123705.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155588   4696 S  1991   0.1   3:48.55 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979456 root      20   0   12344   5540   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:59 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.8 us,  3.2 sy,  0.0 ni, 44.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120974.1 free,   2009.9 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123710.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155592   4696 S  1945   0.1   3:52.77 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979471 root      20   0   12344   5528   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:45:59 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 55.4 us,  2.0 sy,  0.0 ni, 42.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120979.4 free,   2004.6 used,   3924.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123716.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155592   4696 S  1936   0.1   3:56.89 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979485 root      20   0   12344   5528   3348 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:46:00 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 58.0 us,  1.9 sy,  0.0 ni, 40.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120982.3 free,   2001.8 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123719.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155592   4696 S  1900   0.1   4:01.16 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979498 root      20   0   12344   5544   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979505 root      20   0   12344   5500   3348 S   9.1   0.0   0:00.01 memorytop -b -o RES -d 0.01 -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:46:00 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 62.2 us,  0.8 sy,  0.0 ni, 37.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120980.4 free,   2003.6 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123717.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155596   4696 S  1773   0.1   4:05.67 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979513 root      20   0   12344   5548   3368 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-events]
+---------------------------------
+processtop - 13:46:00 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   2 running, 386 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 54.5 us,  1.4 sy,  0.0 ni, 44.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120983.7 free,   2000.3 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123720.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155596   4696 R  1870   0.1   4:09.66 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979525 root      20   0   12344   5544   3368 R  10.0   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+1979528 root      20   0   12344   5516   3368 S  10.0   0.0   0:00.01 top -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+---------------------------------
+processtop - 13:46:00 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 388 total,   1 running, 387 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.5 us,  1.4 sy,  0.0 ni, 39.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120983.7 free,   2000.4 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123720.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155596   4696 S  1945   0.1   4:13.93 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:46:01 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 386 total,   1 running, 385 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 63.6 us,  1.3 sy,  0.0 ni, 35.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120983.6 free,   2000.4 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123720.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155596   4696 S  2073   0.1   4:18.51 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.03 [kworker/0:0H-kblockd]
+---------------------------------
+processtop - 13:46:01 up 23:04,  2 users,  load average: 22.43, 20.35, 18.91
+Tasks: 385 total,   1 running, 384 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 55.7 us,  0.8 sy,  0.0 ni, 43.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 125720.8 total, 120984.5 free,   1999.6 used,   3924.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used. 123721.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1978708 root      20   0 2204112 155596   4696 S  1727   0.1   4:22.60 /root/sha_circ/target/release/deps/sha256_bench-12288d2dd53f1023 --bench
+1979568 root      20   0   12344   5540   3364 R   9.1   0.0   0:00.01 processtop -o %CPU -b -w 512 -n 1
+      1 root      20   0   22660  14040   9768 S   0.0   0.0   0:07.37 /usr/lib/systemd/systemd --system --deserialize=57
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 [kthreadd]
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [pool_workqueue_release]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-rcu_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-sync_wq]
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-kvfree_rcu_reclaim]
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-slub_flushwq]
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/R-netns]
+     10 root      20   0       0      0      0 I   0.0   0.0   0:03.43 [kworker/0:1-mm_percpu_wq]
+---------------------------------

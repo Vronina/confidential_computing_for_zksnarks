@@ -36,7 +36,29 @@ mkdir tmp
 mkdir phase1
 wget -O phase1/powersOfTau28_final.ptau https://storage.googleapis.com/zkevm/ptau/powersOfTau28_hez_final_21.ptau 
 mkdir input_files_sha
+cp ../../../../input_files_circom/* input_files_sha/ 
+
+cp ../../../bytes.circom .
 
 cd ../../../
-mkdir .config
-mkdir .config/procps
+mkdir ../../.config
+mkdir ../../.config/procps
+
+cp ../top/memory_top_script.sh circomlib/circuits/sha256/
+chmod +x circomlib/circuits/sha256/memory_top_script.sh
+cp ../top/process_top_script.sh circomlib/circuits/sha256/
+chmod +x circomlib/circuits/sha256/process_top_script.sh
+cp ../top/top_script.sh circomlib/circuits/sha256/
+chmod +x circomlib/circuits/sha256/top_script.sh
+
+cp ../top/memorytoprc ../../.config/procps/
+cp ../top/processtoprc ../../.config/procps/
+cp ../top/toprc ../../.config/procps/
+
+cp run_* circomlib/circuits/sha256/
+chmod +x circomlib/circuits/sha256/run_benchmark.sh
+chmod +x circomlib/circuits/sha256/run_compile.py
+chmod +x circomlib/circuits/sha256/run_export.py
+chmod +x circomlib/circuits/sha256/run_prove.py
+chmod +x circomlib/circuits/sha256/run_setup.py
+chmod +x circomlib/circuits/sha256/run_witness.py

@@ -22,7 +22,6 @@ import (
 	"github.com/consensys/gnark/frontend/cs/r1cs"
 
 )
-
 const PREIMAGE_SIZE = 128
 
 

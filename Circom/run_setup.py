@@ -21,7 +21,7 @@ def run_benchmark(input_file):
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
-			ex_time_setup = run_command(f"node --max_old_space_size=128000 /root/circomlib/node_modules/snarkjs/cli.js groth16 setup /root/circomlib/circuits/sha256/tmp/bytes.r1cs /root/circomlib/circuits/sha256/phase1/powersOfTau28_final.ptau /root/circomlib/circuits/sha256/tmp/bytes_0.zkey")
+			ex_time_setup = run_command(f"node --max_old_space_size=128000 ../../node_modules/snarkjs/cli.js groth16 setup tmp/bytes.r1cs phase1/powersOfTau28_final.ptau tmp/bytes_0.zkey")
 			file.write(f"Iteration {i}: setup: {ex_time_setup}\n")
 
 

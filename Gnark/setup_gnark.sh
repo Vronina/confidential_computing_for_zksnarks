@@ -26,12 +26,29 @@ cp ../sha_main_prove.go .
 
 mkdir input_files_sha
 #cd ..
-cp -r ../../input_files_gnark/ input_files_sha
+cp -r ../../input_files_gnark/* input_files_sha
 
 cp ../run_benchmark.sh .
 
 go mod tidy
-cd ../../
-cd .config
-mkdir procps
+#cd ../../
+#cd .config
+#mkdir procps
 
+cd ..
+
+mkdir ../../.config/procps
+
+cp ../top/memory_top_script.sh sha_gnark/
+chmod +x sha_gnark/memory_top_script.sh
+cp ../top/process_top_script.sh sha_gnark/
+chmod +x sha_gnark/process_top_script.sh
+cp ../top/top_script.sh sha_gnark/
+chmod +x sha_gnark/top_script.sh
+
+cp ../top/memorytoprc ../../.config/procps/
+cp ../top/processtoprc ../../.config/procps/
+cp ../top/toprc ../../.config/procps/
+
+cp run_benchmark.sh sha_gnark/
+chmod +x sha_gnark/run_benchmark.sh

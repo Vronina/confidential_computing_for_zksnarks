@@ -1,0 +1,11 @@
+group,function,value,throughput_num,throughput_type,sample_measured_value,unit,iteration_count
+sha256,prove,,,,8422536613.0,ns,1
+sha256,prove,,,,8408013919.0,ns,1
+sha256,prove,,,,8686226044.0,ns,1
+sha256,prove,,,,8889576499.0,ns,1
+sha256,prove,,,,8236635844.0,ns,1
+sha256,prove,,,,8500197372.0,ns,1
+sha256,prove,,,,8822132379.0,ns,1
+sha256,prove,,,,9134962995.0,ns,1
+sha256,prove,,,,8242171149.0,ns,1
+sha256,prove,,,,8751470872.0,ns,1

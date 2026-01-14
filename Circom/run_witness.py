@@ -17,11 +17,11 @@ def run_command(command):
 
 
 def run_benchmark(input_file):
-	with open("/root/time_consumption_benchmark_witness.txt", "w", encoding="utf-8") as file:
+	with open("time_consumption_benchmark_witness.txt", "w", encoding="utf-8") as file:
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
-			ex_time_witness = run_command(f"node --max_old_space_size=128000 /root/circomlib/circuits/sha256/tmp/bytes_js/generate_witness.js /root/circomlib/circuits/sha256/tmp/bytes_js/bytes.wasm {input_file}  /root/circomlib/circuits/sha256/tmp/witness.wtns")
+			ex_time_witness = run_command(f"node --max_old_space_size=128000 /tmp/bytes_js/generate_witness.js tmp/bytes_js/bytes.wasm {input_file}  tmp/witness.wtns")
 			file.write(f"Iteration {i}: witness: {ex_time_witness}\n")
 
 

@@ -1,0 +1,201 @@
+Compile: 3.604257529s
+Round0
+Setup: 27.438809296s
+Round1
+Setup: 22.790047849s
+Round2
+Setup: 21.806536993s
+Round3
+Setup: 21.58113677s
+Round4
+Setup: 18.955534836s
+Round5
+Setup: 21.971445609s
+Round6
+Setup: 21.612569119s
+Round7
+Setup: 23.25316503s
+Round8
+Setup: 18.879331284s
+Round9
+Setup: 18.858740356s
+Round10
+Setup: 21.922581261s
+Round11
+Setup: 21.305120888s
+Round12
+Setup: 18.748458021s
+Round13
+Setup: 22.016267809s
+Round14
+Setup: 18.897651187s
+Round15
+Setup: 19.023447523s
+Round16
+Setup: 23.659378952s
+Round17
+Setup: 22.974761651s
+Round18
+Setup: 21.963368243s
+Round19
+Setup: 20.9939649s
+Round20
+Setup: 18.707247298s
+Round21
+Setup: 22.014233633s
+Round22
+Setup: 21.647970373s
+Round23
+Setup: 22.067694163s
+Round24
+Setup: 19.075181432s
+Round25
+Setup: 21.551659531s
+Round26
+Setup: 22.23636912s
+Round27
+Setup: 22.360768535s
+Round28
+Setup: 22.988166457s
+Round29
+Setup: 21.893775691s
+Round30
+Setup: 23.100006445s
+Round31
+Setup: 21.808043715s
+Round32
+Setup: 22.294604028s
+Round33
+Setup: 21.577922014s
+Round34
+Setup: 21.482398792s
+Round35
+Setup: 18.997294929s
+Round36
+Setup: 18.665948905s
+Round37
+Setup: 22.312162372s
+Round38
+Setup: 21.688444213s
+Round39
+Setup: 21.079325338s
+Round40
+Setup: 19.292127129s
+Round41
+Setup: 18.760281812s
+Round42
+Setup: 22.429300252s
+Round43
+Setup: 22.306402389s
+Round44
+Setup: 21.625050343s
+Round45
+Setup: 20.935735491s
+Round46
+Setup: 21.708583106s
+Round47
+Setup: 22.527917316s
+Round48
+Setup: 19.036092005s
+Round49
+Setup: 21.761256641s
+Round50
+Setup: 18.890780418s
+Round51
+Setup: 22.3587982s
+Round52
+Setup: 22.80457499s
+Round53
+Setup: 18.953979212s
+Round54
+Setup: 21.241388128s
+Round55
+Setup: 21.962433138s
+Round56
+Setup: 22.131213158s
+Round57
+Setup: 18.779314154s
+Round58
+Setup: 22.104270487s
+Round59
+Setup: 22.86550176s
+Round60
+Setup: 21.754640281s
+Round61
+Setup: 19.16286338s
+Round62
+Setup: 18.774906384s
+Round63
+Setup: 21.284368287s
+Round64
+Setup: 18.846579291s
+Round65
+Setup: 18.796394524s
+Round66
+Setup: 21.195519292s
+Round67
+Setup: 20.985350899s
+Round68
+Setup: 18.983084166s
+Round69
+Setup: 19.031997874s
+Round70
+Setup: 22.157275624s
+Round71
+Setup: 18.968791314s
+Round72
+Setup: 22.119985139s
+Round73
+Setup: 21.335680538s
+Round74
+Setup: 19.03452537s
+Round75
+Setup: 21.936224624s
+Round76
+Setup: 21.120543469s
+Round77
+Setup: 22.550724541s
+Round78
+Setup: 21.118601017s
+Round79
+Setup: 22.399079134s
+Round80
+Setup: 21.909615441s
+Round81
+Setup: 21.80752952s
+Round82
+Setup: 22.432895781s
+Round83
+Setup: 21.728955877s
+Round84
+Setup: 22.375196708s
+Round85
+Setup: 20.786070101s
+Round86
+Setup: 19.121644909s
+Round87
+Setup: 21.127710315s
+Round88
+Setup: 21.559795566s
+Round89
+Setup: 22.84276139s
+Round90
+Setup: 21.824792048s
+Round91
+Setup: 23.271466644s
+Round92
+Setup: 22.219216138s
+Round93
+Setup: 19.115351692s
+Round94
+Setup: 19.176035294s
+Round95
+Setup: 22.440205811s
+Round96
+Setup: 21.224832185s
+Round97
+Setup: 22.139383601s
+Round98
+Setup: 21.573281791s
+Round99
+Setup: 21.475665895s

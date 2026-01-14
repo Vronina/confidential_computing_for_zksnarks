@@ -1,0 +1,203 @@
+Compile: 14.736595335s
+Setup: 1m47.41102321s
+witness: 4.660319ms
+Round0
+Proof: 3.709163417s
+Round1
+Proof: 3.466642424s
+Round2
+Proof: 3.36927728s
+Round3
+Proof: 3.47784575s
+Round4
+Proof: 3.433667591s
+Round5
+Proof: 3.492680821s
+Round6
+Proof: 3.36459961s
+Round7
+Proof: 3.435310727s
+Round8
+Proof: 3.510583752s
+Round9
+Proof: 3.426780343s
+Round10
+Proof: 3.467716209s
+Round11
+Proof: 3.408168077s
+Round12
+Proof: 3.58177792s
+Round13
+Proof: 3.271653215s
+Round14
+Proof: 3.556180556s
+Round15
+Proof: 3.382545123s
+Round16
+Proof: 3.614902216s
+Round17
+Proof: 3.12523256s
+Round18
+Proof: 3.414757674s
+Round19
+Proof: 3.575346685s
+Round20
+Proof: 3.468659662s
+Round21
+Proof: 3.68498653s
+Round22
+Proof: 3.421572291s
+Round23
+Proof: 3.532796794s
+Round24
+Proof: 3.507017118s
+Round25
+Proof: 3.504140617s
+Round26
+Proof: 3.353035254s
+Round27
+Proof: 3.674392436s
+Round28
+Proof: 3.282670469s
+Round29
+Proof: 3.430393557s
+Round30
+Proof: 3.320807613s
+Round31
+Proof: 3.659525367s
+Round32
+Proof: 3.386021988s
+Round33
+Proof: 3.631088052s
+Round34
+Proof: 3.493782283s
+Round35
+Proof: 3.522951492s
+Round36
+Proof: 3.175924197s
+Round37
+Proof: 3.445821859s
+Round38
+Proof: 3.311786577s
+Round39
+Proof: 3.439591604s
+Round40
+Proof: 3.310472482s
+Round41
+Proof: 3.284710386s
+Round42
+Proof: 3.688405834s
+Round43
+Proof: 3.428051238s
+Round44
+Proof: 3.506494475s
+Round45
+Proof: 3.242508646s
+Round46
+Proof: 3.478358303s
+Round47
+Proof: 3.393052515s
+Round48
+Proof: 3.552657553s
+Round49
+Proof: 3.353214456s
+Round50
+Proof: 3.700072691s
+Round51
+Proof: 3.222695515s
+Round52
+Proof: 3.618036077s
+Round53
+Proof: 3.463904183s
+Round54
+Proof: 3.5790931s
+Round55
+Proof: 3.375524895s
+Round56
+Proof: 3.390202565s
+Round57
+Proof: 3.536575857s
+Round58
+Proof: 3.570474275s
+Round59
+Proof: 3.29546177s
+Round60
+Proof: 3.561604369s
+Round61
+Proof: 3.50279948s
+Round62
+Proof: 3.540946716s
+Round63
+Proof: 3.338634295s
+Round64
+Proof: 3.540327563s
+Round65
+Proof: 3.231928524s
+Round66
+Proof: 3.376147137s
+Round67
+Proof: 3.313283113s
+Round68
+Proof: 3.610631177s
+Round69
+Proof: 3.474195055s
+Round70
+Proof: 3.561444668s
+Round71
+Proof: 3.291627635s
+Round72
+Proof: 3.558382057s
+Round73
+Proof: 3.449819806s
+Round74
+Proof: 3.508313363s
+Round75
+Proof: 3.428325449s
+Round76
+Proof: 3.367281262s
+Round77
+Proof: 3.572810556s
+Round78
+Proof: 3.385294804s
+Round79
+Proof: 3.609160952s
+Round80
+Proof: 3.329591189s
+Round81
+Proof: 3.405437566s
+Round82
+Proof: 3.393050596s
+Round83
+Proof: 3.65776385s
+Round84
+Proof: 3.407861996s
+Round85
+Proof: 3.573995399s
+Round86
+Proof: 3.261412782s
+Round87
+Proof: 3.672646099s
+Round88
+Proof: 3.258899262s
+Round89
+Proof: 3.520932155s
+Round90
+Proof: 3.667572809s
+Round91
+Proof: 3.344330128s
+Round92
+Proof: 3.562139302s
+Round93
+Proof: 3.366202346s
+Round94
+Proof: 3.609535525s
+Round95
+Proof: 3.370781705s
+Round96
+Proof: 3.55422763s
+Round97
+Proof: 3.287576698s
+Round98
+Proof: 3.6825155s
+Round99
+Proof: 3.525194471s

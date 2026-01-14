@@ -21,7 +21,7 @@ def run_benchmark(input_file):
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
-			ex_time_compile = run_command(f"circom /root/circomlib/circuits/sha256/bytes.circom --r1cs --wasm --sym --c --output /root/circomlib/circuits/sha256/tmp | tee /root/circomlib/circuits/sha256/tmp/circom_output")
+			ex_time_compile = run_command(f"circom bytes.circom --r1cs --wasm --sym --c --output tmp | tee tmp/circom_output")
 			file.write(f"Iteration {i}: compile: {ex_time_compile}\n")
 
 

@@ -1,0 +1,201 @@
+Compile: 1m35.658645081s
+Round0
+Setup: 12.559580684s
+Round1
+Setup: 13.923216957s
+Round2
+Setup: 12.015291942s
+Round3
+Setup: 13.503344482s
+Round4
+Setup: 12.321375791s
+Round5
+Setup: 11.901039144s
+Round6
+Setup: 11.893402214s
+Round7
+Setup: 12.060705674s
+Round8
+Setup: 12.288243166s
+Round9
+Setup: 11.977832973s
+Round10
+Setup: 11.856126747s
+Round11
+Setup: 11.959841315s
+Round12
+Setup: 12.027546478s
+Round13
+Setup: 12.01723535s
+Round14
+Setup: 12.033909054s
+Round15
+Setup: 12.114127863s
+Round16
+Setup: 11.689526343s
+Round17
+Setup: 11.864089224s
+Round18
+Setup: 11.984312504s
+Round19
+Setup: 12.43930168s
+Round20
+Setup: 12.093896244s
+Round21
+Setup: 12.265227712s
+Round22
+Setup: 11.698801629s
+Round23
+Setup: 11.966139675s
+Round24
+Setup: 12.130285895s
+Round25
+Setup: 11.710592893s
+Round26
+Setup: 11.832698253s
+Round27
+Setup: 12.136164357s
+Round28
+Setup: 12.025297282s
+Round29
+Setup: 12.463353434s
+Round30
+Setup: 12.527017016s
+Round31
+Setup: 12.026465735s
+Round32
+Setup: 12.123153377s
+Round33
+Setup: 12.350528889s
+Round34
+Setup: 11.844193886s
+Round35
+Setup: 12.337061477s
+Round36
+Setup: 11.73578188s
+Round37
+Setup: 11.927910038s
+Round38
+Setup: 12.290263018s
+Round39
+Setup: 11.858794352s
+Round40
+Setup: 11.994546872s
+Round41
+Setup: 12.363080528s
+Round42
+Setup: 11.909634208s
+Round43
+Setup: 11.841490306s
+Round44
+Setup: 12.136552828s
+Round45
+Setup: 12.088738715s
+Round46
+Setup: 12.214022155s
+Round47
+Setup: 11.832220941s
+Round48
+Setup: 12.040067918s
+Round49
+Setup: 11.997084213s
+Round50
+Setup: 12.196048087s
+Round51
+Setup: 12.036895875s
+Round52
+Setup: 12.255987127s
+Round53
+Setup: 12.467147327s
+Round54
+Setup: 11.75382059s
+Round55
+Setup: 12.013558996s
+Round56
+Setup: 12.223628817s
+Round57
+Setup: 11.983110365s
+Round58
+Setup: 12.089696089s
+Round59
+Setup: 12.071445642s
+Round60
+Setup: 11.992477425s
+Round61
+Setup: 12.275720972s
+Round62
+Setup: 11.889204484s
+Round63
+Setup: 11.906464758s
+Round64
+Setup: 12.241837557s
+Round65
+Setup: 12.023684229s
+Round66
+Setup: 12.064053551s
+Round67
+Setup: 11.935895463s
+Round68
+Setup: 12.342245835s
+Round69
+Setup: 12.106015548s
+Round70
+Setup: 12.125343161s
+Round71
+Setup: 11.866260506s
+Round72
+Setup: 12.048026391s
+Round73
+Setup: 11.949010351s
+Round74
+Setup: 11.740095039s
+Round75
+Setup: 11.773643512s
+Round76
+Setup: 12.467463638s
+Round77
+Setup: 12.006948566s
+Round78
+Setup: 12.197282578s
+Round79
+Setup: 12.355575672s
+Round80
+Setup: 11.799743633s
+Round81
+Setup: 12.28942367s
+Round82
+Setup: 11.97252623s
+Round83
+Setup: 12.211398448s
+Round84
+Setup: 12.415325457s
+Round85
+Setup: 12.204089226s
+Round86
+Setup: 11.825109072s
+Round87
+Setup: 12.379480134s
+Round88
+Setup: 11.723619588s
+Round89
+Setup: 11.899701629s
+Round90
+Setup: 12.110385178s
+Round91
+Setup: 12.257051492s
+Round92
+Setup: 12.247664653s
+Round93
+Setup: 12.055065971s
+Round94
+Setup: 11.898118012s
+Round95
+Setup: 11.806965324s
+Round96
+Setup: 12.275668511s
+Round97
+Setup: 11.784674669s
+Round98
+Setup: 12.201368865s
+Round99
+Setup: 11.732666188s

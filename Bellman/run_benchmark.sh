@@ -1,5 +1,11 @@
 #!/bin/bash
-for file in ../input_files/*; do
+
+export CARGOPATH=/.cargo/bin
+export PATH=$PATH:/.cargo/bin
+. ~/.profile
+
+
+for file in input_files_sha/*; do
 	echo $file
 	rm src/main.rs
 	cp main_setup.rs src/main.rs
@@ -8,8 +14,8 @@ for file in ../input_files/*; do
 	file_name="${file_name_with_ending%%.*}"
 	mv target/criterion/ criterion_setup_$file_name/
 	mv output.txt output_setup_$file_name.txt
-	mv process_top.txt process_top_setup_$file_name.txt
-	mv cpu_top.txt cpu_top_setup_$file_name.txt
+	mv process_top.txt cpu_usage_setup_$file_name.txt
+	mv cpu_top.txt single_cpu_setup_$file_name.txt
 	mv memory_top.txt memory_top_setup_$file_name.txt
 
 	rm src/main.rs
@@ -19,7 +25,7 @@ for file in ../input_files/*; do
     file_name="${file_name_with_ending%%.*}"
     mv target/criterion/ criterion_prove_$file_name/
     mv output.txt output_prove_$file_name.txt
-    mv process_top.txt process_top_prove_$file_name.txt
-    mv cpu_top.txt cpu_top_prove_$file_name.txt
+    mv process_top.txt cpu_usage_prove_$file_name.txt
+    mv cpu_top.txt single_cpu_prove_$file_name.txt
     mv memory_top.txt memory_top_prove_$file_name.txt
 done

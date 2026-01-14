@@ -1,4 +1,5 @@
 // Copyright (c) 2023 zkCollective, Celer Network
+// and based on  https://docs.sign.global/for-builders/advanced-topics/zk-attestations/compile-a-circuit
 
 pragma circom 2.0.0;
 
@@ -10,29 +11,24 @@ include "../bitify.circom";
  * @param  N   The number of input bytes
  * @input  in  The input bytes
  * @output out The SHA256 output of the n input bytes, in bytes
- *
- * SOURCE: https://github.com/celer-network/zk-benchmark/blob/main/circom/circuits/sha256/sha256_bytes.circom
  */
-template Sha256Bytes(N) {
-  signal input in[N];
+template Sha256Bytes(n) {
+  signal input in[n];
   signal output out[32];
 
-  // convert input bytes to bits
-  component byte_to_bits[N];
-  for (var i = 0; i < N; i++) {
+  component byte_to_bits[n];
+  for (var i = 0; i < n; i++) {
     byte_to_bits[i] = Num2Bits(8);
     byte_to_bits[i].in <== in[i];
   }
 
-  // sha256 over bits
-  component sha256 = Sha256(N*8);
-  for (var i = 0; i < N; i++) {
+  component sha256 = Sha256(n*8);
+  for (var i = 0; i < n; i++) {
     for (var j = 0; j < 8; j++) {
       sha256.in[i*8+j] <== byte_to_bits[i].out[7-j];
     }
   }
 
-  // convert output bytes to bits
   component bits_to_bytes[32];
   for (var i = 0; i < 32; i++) {
     bits_to_bytes[i] = Bits2Num(8);
@@ -43,12 +39,12 @@ template Sha256Bytes(N) {
   }
 }
 
-template Main(N) {
-    signal input in[N];
+template Main(n) {
+    signal input in[n];
     signal input hash[32];
     signal output out[32];
 
-    component sha256 = Sha256Bytes(N);
+    component sha256 = Sha256Bytes(n);
     sha256.in <== in;
     out <== sha256.out;
 
@@ -63,8 +59,9 @@ template Main(N) {
     log("finish ================");
 }
 
-// render this file before compilation
+
+
+
 component main = Main(128);
 
-// taken from https://docs.sign.global/for-builders/advanced-topics/zk-attestations/compile-a-circuit
-// which they took from here https://github.com/boyuanx/circom-sha256-preimage-example/blob/main/sha256.circom
+// adjust based on input size

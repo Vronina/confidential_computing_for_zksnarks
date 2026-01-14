@@ -17,11 +17,11 @@ def run_command(command):
 
 
 def run_benchmark(input_file):
-	with open("/root/time_consumption_benchmark_prove.txt", "w", encoding="utf-8") as file:
+	with open("time_consumption_benchmark_prove.txt", "w", encoding="utf-8") as file:
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
-			ex_time_prove = run_command(f"node --max_old_space_size=128000 /root/circomlib/node_modules/snarkjs/cli.js groth16 prove /root/circomlib/circuits/sha256/tmp/bytes_0.zkey /root/circomlib/circuits/sha256/tmp/witness.wtns /root/circomlib/circuits/sha256/tmp/proof.json /root/circomlib/circuits/sha256/tmp/public.json")
+			ex_time_prove = run_command(f"node --max_old_space_size=128000 ../../node_modules/snarkjs/cli.js groth16 prove tmp/bytes_0.zkey tmp/witness.wtns tmp/proof.json tmp/public.json")
 			file.write(f"Iteration {i}: prove: {ex_time_prove}\n")
 
 

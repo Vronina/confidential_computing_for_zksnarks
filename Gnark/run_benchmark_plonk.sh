@@ -17,8 +17,8 @@ for file in input_files_sha/*; do
 	#echo $file_name
 
 	mv benchmark_times.txt benchmark_times_plonk_setup_$file_name.txt
-	mv process_top.txt process_top_plonk_setup_$file_name.txt
-	mv cpu_top.txt cpu_top_plonk_setup_$file_name.txt
+	mv process_top.txt cpu_usage_plonk_setup_$file_name.txt
+	mv cpu_top.txt single_cpu_plonk_setup_$file_name.txt
 	mv memory_top.txt memory_top_plonk_setup_$file_name.txt
 
 
@@ -31,7 +31,7 @@ for file in input_files_sha/*; do
 	file_name="${file_name_with_ending%%.*}"
 
 	mv benchmark_times.txt benchmark_times_plonk_prove_$file_name.txt
-	mv process_top.txt process_top_plonk_prove_$file_name.txt
-	mv cpu_top.txt cpu_top_plonk_prove_$file_name.txt
+	mv process_top.txt cpu_usage_plonk_prove_$file_name.txt
+	mv cpu_top.txt single_cpu_plonk_prove_$file_name.txt
 	mv memory_top.txt memory_top_plonk_prove_$file_name.txt
 done

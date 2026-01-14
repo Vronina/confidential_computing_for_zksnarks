@@ -21,7 +21,7 @@ def run_benchmark(input_file):
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
-			ex_time_export = run_command(f"node --max_old_space_size=128000 /root/circomlib/node_modules/snarkjs/cli.js zkey export verificationkey /root/circomlib/circuits/sha256/tmp/bytes_0.zkey /root/circomlib/circuits/sha256/tmp/verification_key.json")
+			ex_time_export = run_command(f"node --max_old_space_size=128000 ../../node_modules/snarkjs/cli.js zkey export verificationkey tmp/bytes_0.zkey tmp/verification_key.json")
 			file.write(f"Iteration {i}: export: {ex_time_export}\n")
 
 

@@ -1,0 +1,201 @@
+Compile: 5.601456162s
+Round0
+Setup: 911.0684ms
+Round1
+Setup: 874.769109ms
+Round2
+Setup: 892.187402ms
+Round3
+Setup: 916.724909ms
+Round4
+Setup: 921.735507ms
+Round5
+Setup: 939.06862ms
+Round6
+Setup: 896.065645ms
+Round7
+Setup: 873.437985ms
+Round8
+Setup: 967.862843ms
+Round9
+Setup: 924.045536ms
+Round10
+Setup: 878.564543ms
+Round11
+Setup: 915.232785ms
+Round12
+Setup: 868.807917ms
+Round13
+Setup: 903.22186ms
+Round14
+Setup: 902.88122ms
+Round15
+Setup: 867.340462ms
+Round16
+Setup: 862.463034ms
+Round17
+Setup: 946.102516ms
+Round18
+Setup: 912.477124ms
+Round19
+Setup: 851.841617ms
+Round20
+Setup: 944.477549ms
+Round21
+Setup: 883.42017ms
+Round22
+Setup: 905.998021ms
+Round23
+Setup: 903.276831ms
+Round24
+Setup: 858.006708ms
+Round25
+Setup: 852.743538ms
+Round26
+Setup: 922.15837ms
+Round27
+Setup: 914.05201ms
+Round28
+Setup: 885.296167ms
+Round29
+Setup: 923.593625ms
+Round30
+Setup: 854.887168ms
+Round31
+Setup: 892.055372ms
+Round32
+Setup: 951.603315ms
+Round33
+Setup: 893.481496ms
+Round34
+Setup: 956.715384ms
+Round35
+Setup: 1.010387786s
+Round36
+Setup: 911.181259ms
+Round37
+Setup: 908.925892ms
+Round38
+Setup: 1.001891776s
+Round39
+Setup: 925.950502ms
+Round40
+Setup: 907.013504ms
+Round41
+Setup: 914.190531ms
+Round42
+Setup: 955.213648ms
+Round43
+Setup: 882.548817ms
+Round44
+Setup: 955.117158ms
+Round45
+Setup: 875.648761ms
+Round46
+Setup: 863.793589ms
+Round47
+Setup: 911.983922ms
+Round48
+Setup: 849.341016ms
+Round49
+Setup: 860.124905ms
+Round50
+Setup: 964.318031ms
+Round51
+Setup: 929.390916ms
+Round52
+Setup: 944.184858ms
+Round53
+Setup: 949.015526ms
+Round54
+Setup: 862.242034ms
+Round55
+Setup: 870.709814ms
+Round56
+Setup: 927.714389ms
+Round57
+Setup: 864.35061ms
+Round58
+Setup: 904.198355ms
+Round59
+Setup: 970.227013ms
+Round60
+Setup: 929.624647ms
+Round61
+Setup: 972.14657ms
+Round62
+Setup: 942.433772ms
+Round63
+Setup: 876.855876ms
+Round64
+Setup: 880.280358ms
+Round65
+Setup: 911.896722ms
+Round66
+Setup: 900.534132ms
+Round67
+Setup: 897.716341ms
+Round68
+Setup: 902.750219ms
+Round69
+Setup: 896.259906ms
+Round70
+Setup: 890.732846ms
+Round71
+Setup: 909.877335ms
+Round72
+Setup: 941.711989ms
+Round73
+Setup: 906.993205ms
+Round74
+Setup: 976.092692ms
+Round75
+Setup: 913.444538ms
+Round76
+Setup: 943.495666ms
+Round77
+Setup: 925.954243ms
+Round78
+Setup: 876.674675ms
+Round79
+Setup: 860.023855ms
+Round80
+Setup: 926.741136ms
+Round81
+Setup: 944.408459ms
+Round82
+Setup: 891.975161ms
+Round83
+Setup: 914.506452ms
+Round84
+Setup: 889.23628ms
+Round85
+Setup: 873.180674ms
+Round86
+Setup: 909.989374ms
+Round87
+Setup: 859.536734ms
+Round88
+Setup: 876.752526ms
+Round89
+Setup: 911.561071ms
+Round90
+Setup: 862.429743ms
+Round91
+Setup: 855.297149ms
+Round92
+Setup: 949.057936ms
+Round93
+Setup: 912.410115ms
+Round94
+Setup: 961.28803ms
+Round95
+Setup: 948.636195ms
+Round96
+Setup: 949.716318ms
+Round97
+Setup: 917.737603ms
+Round98
+Setup: 958.350639ms
+Round99
+Setup: 927.89608ms
