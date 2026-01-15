@@ -17,7 +17,7 @@ def run_command(command):
 
 
 def run_benchmark(input_file):
-	with open("/root/time_consumption_benchmark_compile.txt", "w", encoding="utf-8") as file:
+	with open("time_consumption_benchmark_compile.txt", "w", encoding="utf-8") as file:
 		file.write(f"Voting Circuit\n")
 
 		for i in range(100):
